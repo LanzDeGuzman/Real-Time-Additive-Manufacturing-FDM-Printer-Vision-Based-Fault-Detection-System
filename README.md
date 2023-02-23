@@ -8,7 +8,8 @@ In preparing the dataset for training, an open-source data set for 3d printing d
 ## Training the Dataset 
 In training the detection model, Google Collab, a cloud-based environment, was used. Using YOLOv4-Tiny’s darknet architecture, cfg, weights, and name files of the trained model were generated after 10000 iterations. 
 
-Original Data set from: https://www.kaggle.com/datasets/mikulhe/3d-printing-errors?fbclid=IwAR0qUNPXj6qa0Y5yLGwNbvEDgTRATQgGqSiB6j86aj57dLjX56MqH6YZj9U
+Google Collab Training Notebook: https://colab.research.google.com/drive/1Qf0HmtpIOLA8eBm2M-YmHd4b_GGjd-be?usp=sharing
+** Data Set Created is already attached to the notebook, can also be used to train other darknet based detection models
 
 #### YOLOv4 Tiny Training Results 
 
