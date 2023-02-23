@@ -10,20 +10,26 @@ In training the detection model, Google Collab, a cloud-based environment, was u
 
 Original Data set from: https://www.kaggle.com/datasets/mikulhe/3d-printing-errors?fbclid=IwAR0qUNPXj6qa0Y5yLGwNbvEDgTRATQgGqSiB6j86aj57dLjX56MqH6YZj9U
 
-![Training Results](https://user-images.githubusercontent.com/97860488/221009642-d7ecf97e-c952-438d-a1a3-e6f818aeaa78.png)
-
 #### YOLOv4 Tiny Training Results 
+
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/97860488/221009642-d7ecf97e-c952-438d-a1a3-e6f818aeaa78.png">
+</p>
+
 After 10,000 iterations of training, the finalized YOLOv4 model with 5 class detection rendered a **mean average precision(mAP) of 30.24% and 42.96% mAP** at its best weight file generated. To validate the model's accuracy and effectiveness, the model was executed in real-time using a web camera.
 
 ## How the code works 
 Once YOLO files are initialized, the camera's feed is displayed, and whenever a fault is detected, a bounding box together with its corresponding class is displayed in the feed. Simultaneous to the detection and displaying of bounding boxes, detection results are recorded into a text file. The results text file includes the session when the program is initiated. The session includes information regarding what date and time the program script was executed.
 
-- <img src= "https://user-images.githubusercontent.com/97860488/221025586-d055d163-e6f7-4643-a107-f22324e8a4f2.PNG" height= "200"/> <img src="https://user-images.githubusercontent.com/97860488/221025430-87548c5a-929e-4c78-b892-98492363d6f2.PNG" width="200" height="200"/>
+<p align="center"> 
+  <img src= "https://user-images.githubusercontent.com/97860488/221025586-d055d163-e6f7-4643-a107-f22324e8a4f2.PNG" height= "200"/> <img src="https://user-images.githubusercontent.com/97860488/221025430-87548c5a-929e-4c78-b892-98492363d6f2.PNG" width="200" height="200"/>
+</p>
 
 ## Sample Results
-<img src="https://user-images.githubusercontent.com/97860488/221027525-6e94f1a6-ceb2-4aac-9ea8-de85c1d312c3.PNG" height= "200"/> <img src="https://user-images.githubusercontent.com/97860488/221027527-a28a3d89-a600-4375-9def-043eb58dd41a.PNG" height= "200"/>
-
-<img src="https://user-images.githubusercontent.com/97860488/221027509-fbf21184-b47b-405a-b738-b0e21af380d1.PNG" height= "200"/> <img src="https://user-images.githubusercontent.com/97860488/221027499-da13a9b1-4ab6-4b05-9d3f-cac1cbe3298e.PNG" height= "200"/>
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/97860488/221027525-6e94f1a6-ceb2-4aac-9ea8-de85c1d312c3.PNG" height= "200"/> <img src="https://user-images.githubusercontent.com/97860488/221027527-a28a3d89-a600-4375-9def-043eb58dd41a.PNG" height= "200"/>
+ <img src="https://user-images.githubusercontent.com/97860488/221027509-fbf21184-b47b-405a-b738-b0e21af380d1.PNG" height= "200"/> <img src="https://user-images.githubusercontent.com/97860488/221027499-da13a9b1-4ab6-4b05-9d3f-cac1cbe3298e.PNG" height= "200"/>
+</p>
 
 ## Future Work 
 To improve the groundwork, expounding and increasing the image database in training the model is recommended in order to increase the model’s performance and accuracy. Moreover, the use of newer YOLO architectures to evaluate the differences and improvements is also recommended. It is also recommended to pursue the initail goal of this repository to develop an automated fault detection and health monitoring system based on the FDM 3d Printers output, where after a print, whenever an error is  detected, the system would output what problems the 3d printer should address,  e.g., increasing heat, adjusting material supply, and motor calibration. Adding a real time graph visualiztion of the report can also be explored.
