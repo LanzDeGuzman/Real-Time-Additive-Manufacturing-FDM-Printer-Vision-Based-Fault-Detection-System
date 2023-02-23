@@ -33,3 +33,6 @@ Once YOLO files are initialized, the camera's feed is displayed, and whenever a 
 
 ## Future Work 
 To improve the groundwork, expounding and increasing the image database in training the model is recommended in order to increase the model’s performance and accuracy. Moreover, the use of newer YOLO architectures to evaluate the differences and improvements is also recommended. It is also recommended to pursue the initail goal of this repository to develop an automated fault detection and health monitoring system based on the FDM 3d Printers output, where after a print, whenever an error is  detected, the system would output what problems the 3d printer should address,  e.g., increasing heat, adjusting material supply, and motor calibration. Adding a real time graph visualiztion of the report can also be explored.
+
+#### Collaborators
+Joshua Andrei A. Jawod, Kristoffer Sean N. Wong, Denzhel Karl T. Rostata
